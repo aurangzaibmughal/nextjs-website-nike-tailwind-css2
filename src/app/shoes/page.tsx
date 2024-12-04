@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 const Shoes = () => {
   const shoesData = [
     {
@@ -6,42 +8,42 @@ const Shoes = () => {
       name: "Nike Alamy",
       description: "Flexible Shoes",
       price: 350,
-      image: "/image-1.jpeg",
+      Image: "/image-1.jpeg",
     },
     {
       id: "2",
       name: "Nike VIR",
       description: "Jordan Shoes",
       price: 360,
-      image: "/download (1).jpg",
+      Image: "/download (1).jpg",
     },
     {
       id: "3",
       name: "Nike Rollred",
       description: "Loin Shoes",
       price: 400,
-      image: "/images (14).jpeg",
+      Image: "/images (14).jpeg",
     },
     {
       id: "4",
       name: "Nike Sprender Air",
       description: "Jence Shoes",
       price: 250,
-      image: "/images (6).jpeg",
+      Image: "/images (6).jpeg",
     },
     {
       id: "5",
       name: "Nike Fline",
       description: "Jogging Shoes",
       price: 380,
-      image: "/images (13).jpeg",
+      Image: "/images (13).jpeg",
     },
     {
       id: "6",
       name: "Nike Wakasoco",
       description: "Classic Shoes",
       price: 290,
-      image: "/images (12).jpeg",
+      Image: "/images (12).jpeg",
     },
   ];
 
@@ -52,8 +54,8 @@ const Shoes = () => {
           key={shoes.id}
           className="shoes-card bg-[#B9FF66] p-5 rounded-md shadow-md text-center"
         >
-          <img
-            src={shoes.image}
+          <Image
+            src={shoes.Image}
             alt={shoes.name}
             className="w-full rounded-md transition-transform duration-300 transform hover:scale-110"
           />
