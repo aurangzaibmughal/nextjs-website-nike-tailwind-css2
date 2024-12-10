@@ -10,8 +10,7 @@ const HomeContent = () => {
     AOS.init({
        duration: 1000,
        once: true,
-       
-      });
+       });
   }, []);
 return (
   <section className="hero h-screen flex items-center bg-cover bg-center" style={{ backgroundImage: "url('/background.jpg')"}}>
@@ -27,3 +26,7 @@ return (
 };
 
 export default HomeContent;
+
+
+
+

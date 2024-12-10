@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
   return (
-    <section className="about h-screen flex items-center justify-start bg-cover bg-center text-blue-950 px-10" style={{ backgroundImage: "url('/background-img.jpg')"}}>
+    <section className="about h-screen flex items-center justify-start bg-cover bg-center text-blue-950 px-10" style={{ backgroundImage: "url('/background-img.jpg')" }}>
         <div className=" bg-[#B9FF66] p-8  max-w-lg ">
             <h2 className="text-4xl font-bold mb-4" data-aos="fade-up">About Us</h2>
             <p>Welcome to our world of Nike—a name synonymous with innovation,
@@ -18,7 +18,7 @@ const About = () => {
 
     </section>
     
-  )
-}
+  );
+} 
 
 export default About;
