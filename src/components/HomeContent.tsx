@@ -1,17 +1,12 @@
 "use client";
-
-import React from 'react'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import React from 'react';
 import { useEffect } from 'react';
 
 const HomeContent = () => {
   useEffect(() => {
-    AOS.init({
-       duration: 1000,
-       once: true,
-       });
-  }, []);
+    AOS.init({duration: 1000,once: true,});}, []);
 return (
   <section className="hero h-screen flex items-center bg-cover bg-center" style={{ backgroundImage: "url('/background.jpg')"}}>
     <div className="pl-0 md:pl-16 text-white text-center">
